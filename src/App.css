@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding-top: 110px;
+    background-color: #121212;
+}
+.logo{
+    max-width: 300px;
+   
+}
+.title{
+    color: #fff;
+    font-size: 2rem;
+    margin: 14px 0;
+}
+.categories{
+    display: flex;
+    gap: 14px;
+    margin-bottom: 20px;
+}
+
+.category-bt{
+    padding: 4px 10px;
+    border-radius: 4px;
+
+}
+.btn{
+    background-color: #1fa4df;
+    border: 0;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+.bestPhrases{
+  background-color:#fff;
+  width: 450px;
+padding: 14px 20px;
+    border-radius: 4px;
+    text-align: center;
+    margin: 24px 0 16px 0;
+    font: italic;
+    line-height: 150%;
+    color: #dd7b22;
+
+}
